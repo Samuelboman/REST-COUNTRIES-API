@@ -1,0 +1,62 @@
+// _layout.scss
+.app {
+  min-height: 100vh;
+  padding: 1rem;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1rem;
+
+  button {
+    @include button-style(teal, white);
+    &:hover {
+      background-color: #006d6d;
+      transform: scale(1.05);
+    }
+  }
+}
+
+.controls {
+  margin-bottom: 2rem;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+
+  input,
+  select {
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+  }
+}
+
+.countries-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 2rem 0;
+
+  button {
+    @include button-style(teal, white);
+
+    &.active {
+      background-color: #004d4d;
+      font-weight: bold;
+    }
+
+    &:hover {
+      background-color: #008080;
+    }
+  }
+}

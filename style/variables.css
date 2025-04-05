@@ -1,0 +1,13 @@
+:root {
+  --bg-light: #fafafa;
+  --bg-dark: #202c37;
+  --text-light: #111517;
+  --text-dark: #ffffff;
+  --card-light: #ffffff;
+  --card-dark: #2b3945;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}/*# sourceMappingURL=variables.css.map */

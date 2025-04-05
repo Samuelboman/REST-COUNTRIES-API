@@ -1,0 +1,13 @@
+// _mixins.scss
+@mixin button-style($bg-color, $color) {
+  background-color: $bg-color;
+  color: $color;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}

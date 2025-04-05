@@ -1,0 +1,30 @@
+// _theme.scss
+.light {
+  background-color: var(--bg-light);
+  color: var(--text-light);
+
+  .country-card {
+    background-color: var(--card-light);
+  }
+
+  input,
+  select {
+    background-color: var(--card-light);
+    color: var(--text-light);
+  }
+}
+
+.dark {
+  background-color: var(--bg-dark);
+  color: var(--text-dark);
+
+  .country-card {
+    background-color: var(--card-dark);
+  }
+
+  input,
+  select {
+    background-color: var(--card-dark);
+    color: var(--text-dark);
+  }
+}

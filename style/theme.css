@@ -1,0 +1,25 @@
+.light {
+  background-color: var(--bg-light);
+  color: var(--text-light);
+}
+.light .country-card {
+  background-color: var(--card-light);
+}
+.light input,
+.light select {
+  background-color: var(--card-light);
+  color: var(--text-light);
+}
+
+.dark {
+  background-color: var(--bg-dark);
+  color: var(--text-dark);
+}
+.dark .country-card {
+  background-color: var(--card-dark);
+}
+.dark input,
+.dark select {
+  background-color: var(--card-dark);
+  color: var(--text-dark);
+}/*# sourceMappingURL=theme.css.map */
