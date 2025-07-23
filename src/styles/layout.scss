@@ -1,4 +1,5 @@
-// _layout.scss
+@use './mixins' as *;
+
 .app {
   min-height: 100vh;
   padding: 1rem;
